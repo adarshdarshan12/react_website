@@ -9,6 +9,7 @@ venv/
 IDE specific
 .vscode/
 .idea/
+
 Project specific
 data/raw/
 models/saved/
