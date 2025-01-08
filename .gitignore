@@ -1,0 +1,15 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.class
+venv/
+.env
+*.pyc
+
+IDE specific
+.vscode/
+.idea/
+Project specific
+data/raw/
+models/saved/
+

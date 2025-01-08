@@ -1,0 +1,33 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Header = () => (
+  <header className="text-center p-6">
+    <h1 className="text-5xl mb-2 font-cormorant">Adarsh Darshan</h1>
+    <nav>
+      <ul className="flex justify-center space-x-4">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+        <li><a href="/resume.pdf">Resume</a></li>
+      </ul>  
+    </nav>
+  </header>
+);
+
+const Home = () => (
+  <main className="p-6">
+    <h2 className="text-3xl mb-4">Welcome</h2>
+    <p>This is the personal website of Adarsh Darshan.</p>
+  </main>
+);
+
+const App = () => (
+  <div>
+    <Header />
+    <Home />  
+  </div>
+);
+
+export default App;
